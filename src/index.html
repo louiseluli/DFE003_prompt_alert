@@ -6,8 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <header></header>
-
-  <body></body>
   <script src="./main.js"></script>
+  <title>Exercício</title>
+
+  <body>
+    <div class="principal">
+      <div class="dobro">
+        Cálculo do dobro
+        <br />
+        <input name="inpDobro" type="number" />
+        <br />
+        <br />
+
+        <button
+          class="botao1"
+          type="submit"
+          onclick="document.inpDobro.ans.number*2"
+        >
+          Enviar
+        </button>
+      </div>
+      <hr />
+      <div class="restaurante">
+        Restaurante Chapa Quente
+        <br />
+        <br />
+        Total da conta
+        <input class="inpConta" type="number" /> mais <br />
+        Taxa de serviço
+        <input class="inpWaiter" type="number" />
+        <br />
+        <br />
+
+        <button class="botao2" id="calc2" type="submit">Enviar</button>
+      </div>
+
+      <hr />
+      <div class="pizzaria">
+        Pizzaria Quatro Queijos
+        <br />
+        <br />
+        Total da conta
+        <input class="inpConta" type="number" />dividido por
+        <input class="inpWaiter" type="number" />pessoas.
+        <br />
+        <br />
+
+        <button class="botao3" id="calc3" type="submit">Enviar</button>
+      </div>
+    </div>
+  </body>
 </html>

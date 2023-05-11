@@ -1,0 +1,7 @@
+.principal {
+  border: 1px blueviolet solid;
+  background-color: antiquewhite;
+  display: inline-block;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
